@@ -15,7 +15,7 @@ function draw() {
         fill(canalesR[index], canalesG[index], canalesB[index])
         ellipse(posicionesX[index], posicionesY[index], 30, 30)
     }
-}
+} 
 
 function mousePressed() {
     posicionesX.push(mouseX)
